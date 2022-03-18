@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(side == 1)
                 {
                     iv.setImageResource(R.drawable.heads);
-                    Toast.makeText(MainActivity.this ,"Heads",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this ,"Tails",Toast.LENGTH_SHORT).show();
                 }
                 //For Rotation
                 RotateAnimation rot = new RotateAnimation(0,360,
